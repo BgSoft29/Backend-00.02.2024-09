@@ -8,7 +8,7 @@ export const connectDB = async () => {
         if (error instanceof Error) {
             console.error(`Error: ${error.message}`);
         } else {
-            console.error('Unexpected error', error);
+            console.error('Unexpected errorr', error);
         }
         process.exit(1);
     }
