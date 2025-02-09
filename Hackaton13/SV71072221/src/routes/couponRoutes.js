@@ -6,4 +6,3 @@ export const couponRouter = Router()
 
 couponRouter.get('/', CouponController.getAll)
 couponRouter.post('/', CouponController.create)
-
